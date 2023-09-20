@@ -8,12 +8,12 @@
 $ npx @robertsspaceindustries/express-test --help
 Usage: @robertsspaceindustries/express-test [options]
 
-Testing Express.js server that logs all requests
+Express testing server
 
 Options:
-  -V, --version  output the version number
-  -p, --port     port
-  -h, --headers  include headers in logs (default: false)
-  -q, --query    include url query in logs (default: false)
-  --help         display help for command
+  -V, --version        output the version number
+  -p, --port <number>  port (default: 80)
+  -h, --headers        include headers in logs (default: false)  
+  -q, --query          include url query in logs (default: false)
+  --help               display help for command
 ```
