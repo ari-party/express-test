@@ -14,7 +14,7 @@ program
 	.name(name)
 	.description(description)
 	.version(version)
-	.option("-p, --port", "port", 80)
+	.option("-p, --port <number>", "port", 80)
 	.option("-h, --headers", "include headers in logs", false)
 	.option("-q, --query", "include url query in logs", false);
 program.parse(process.argv);
