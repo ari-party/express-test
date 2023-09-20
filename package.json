@@ -1,8 +1,9 @@
 {
 	"name": "@robertsspaceindustries/express-test",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Express testing server",
 	"main": "src/server.js",
+  "bin": "src/server.js",
 	"type": "module",
 	"repository": {
 		"type": "git",

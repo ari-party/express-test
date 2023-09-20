@@ -5,9 +5,7 @@
 
 ## Usage
 ```
-$ npm i -g @robertsspaceindustries/express-test
-
-$ express-test --help
+$ npx express-test --help
 Usage: @robertsspaceindustries/express-test [options]
 
 Testing Express.js server that logs all requests
