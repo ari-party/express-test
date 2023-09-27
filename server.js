@@ -7,7 +7,7 @@ import { URL } from "node:url";
 import { Command } from "commander";
 import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
-const { name, description, version } = require("../package.json");
+const { name, description, version } = require("./package.json");
 
 const program = new Command();
 program
