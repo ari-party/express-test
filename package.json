@@ -1,6 +1,6 @@
 {
 	"name": "@robertsspaceindustries/express-test",
-	"version": "1.0.3-d",
+	"version": "1.0.3-e",
 	"description": "Express testing server",
 	"main": "server.js",
 	"bin": "server.js",
