@@ -5,6 +5,9 @@
 	"main": "server.js",
 	"bin": "server.js",
 	"type": "module",
+	"scripts": {
+		"lint": "npx eslint ."
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/robertsspaceindustries/express-test.git"
